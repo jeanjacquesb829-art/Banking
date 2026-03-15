@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta charset="UTF-8">
+<title>Dashboard Banque</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- LOADER -->
+
+<div id="loader">
+
+<div class="loader-box">
+
+<img src="IMG_9893.png" class="loader-logo">
+
+<h1>Chargement...</h1>
+
+</div>
+
+</div>
+
+
+<!-- LOGIN -->
+
+<div id="loginPage">
+
+<div class="login-box">
+
+<img src="IMG_9893.png" class="login-logo">
+
+<h2>Connexion</h2>
+
+<input type="text" id="email" placeholder="Adresse email">
+<input type="password" id="password" placeholder="Mot de passe">
+
+<button onclick="login()">Se connecter</button>
+
+</div>
+
+</div>
+
+
+<!-- HEADER -->
+
+<header class="header">
+
+<div class="logo">
+<img src="IMG_9893.png">
+</div>
+
+<div class="menu-top">
+<span>🔍</span>
+<span>🔔</span>
+<span>👤 Client</span>
+</div>
+
+</header>
+
+
+<!-- DASHBOARD -->
+
+<div class="container" id="dashboard">
+
+<aside class="sidebar">
+
+<ul>
+
+<li class="active">Mes comptes</li>
+<li>Virement & Services</li>
+<li>Suivre mon budget</li>
+<li>Portefeuille & Bourse</li>
+<li>Notre offre</li>
+
+</ul>
+
+</aside>
+
+
+<main class="content">
+
+<div class="welcome">
+
+<h2>Bonjour Client</h2>
+
+<div class="balances">
+
+<div class="box">
+<p>Solde total</p>
+<h3>12 940 660 €</h3>
+</div>
+
+<div class="box">
+<p>Crédits</p>
+<h3>-255 500 €</h3>
+</div>
+
+</div>
+
+</div>
+
+
+<section class="menu-content">
+
+<!-- MES COMPTES -->
+
+<div class="page active">
+
+<h3>Mes comptes</h3>
+
+<div class="bank-card">
+
+<img src="IMG_9893.png">
+
+<div class="card-info">
+
+<p>Nom : Client</p>
+<p>Numéro : **** **** **** 2458</p>
+<p>Expire : 12/28</p>
+
+</div>
+
+</div>
+
+<ul>
+
+<li>Compte courant : 2 304 €</li>
+<li>Epargne disponible : 13 400 €</li>
+<li>Assurance vie : 3 572 €</li>
+<li>Investissements : 8 384 €</li>
+
+</ul>
+
+</div>
+
+
+<!-- VIREMENT -->
+
+<div class="page">
+
+<h3>Virement & Services</h3>
+
+<p>Envoyer de l'argent entre comptes :</p>
+
+<button class="action-btn">Faire un virement</button>
+
+<ul>
+<li>Paiement factures</li>
+<li>Recharge mobile</li>
+<li>Virement international</li>
+</ul>
+
+</div>
+
+
+<!-- BUDGET -->
+
+<div class="page">
+
+<h3>Suivre mon budget</h3>
+
+<ul>
+
+<li>Courses : 250 €</li>
+<li>Transport : 80 €</li>
+<li>Restaurants : 120 €</li>
+<li>Abonnements : 60 €</li>
+
+</ul>
+
+</div>
+
+
+<!-- BOURSE -->
+
+<div class="page">
+
+<h3>Portefeuille & Bourse</h3>
+
+<ul>
+
+<li>Apple : +3%</li>
+<li>Microsoft : +2%</li>
+<li>Tesla : -1%</li>
+<li>Amazon : +4%</li>
+
+</ul>
+
+</div>
+
+
+<!-- OFFRES -->
+
+<div class="page">
+
+<h3>Nos offres bancaires</h3>
+
+<div class="offers">
+
+<div class="offer-card">
+
+<h4>Carte Premium</h4>
+
+<p>
+Carte bancaire internationale avec plafonds élevés
+et assurances voyage incluses.
+</p>
+
+<button class="action-btn">Découvrir</button>
+
+</div>
+
+
+<div class="offer-card">
+
+<h4>Crédit Immobilier</h4>
+
+<p>
+Financement immobilier avec taux préférentiels
+et durée jusqu'à 25 ans.
+</p>
+
+<button class="action-btn">Simuler</button>
+
+</div>
+
+
+<div class="offer-card">
+
+<h4>Assurance habitation</h4>
+
+<p>
+Protection complète contre incendie, vol
+et dégâts des eaux.
+</p>
+
+<button class="action-btn">Voir l'offre</button>
+
+</div>
+
+
+<div class="offer-card">
+
+<h4>Prêt personnel</h4>
+
+<p>
+Crédit rapide pour financer vos projets.
+</p>
+
+<button class="action-btn">Faire une demande</button>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
